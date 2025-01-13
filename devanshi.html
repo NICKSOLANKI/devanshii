@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+
+    <title>My Proposal to You</title>
+    <style>
+     
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+          body {
+           
+           background-image: url('devanshi.jpg');
+           background-size: cover;  
+           background-position: center; 
+           background-attachment: fixed; 
+           height: 100vh;  
+           margin: 0; 
+          }
+        
+body {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #681111;
+            color: #5c1616;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ac80af;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        .message {
+            font-size: 1.5em;
+            margin-top: 50px;
+        }
+        .final-btn {
+            margin-top: 50px;
+            padding: 20px 40px;
+            font-size: 1.5em;
+            color: rgb(216, 5, 235);
+            background-color:  #ff91af;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #ff91af; 
+            color:  #ff91af;
+            padding: 20px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #28a745;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: popupAnimation 1s forwards;
+}
+
+@keyframes popupAnimation {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+button {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.buttons {
+            margin-top: 30px;
+        }
+       
+        
+        .buttons {
+        margin-top: 30px;
+    }
+    button:hover {
+    transform: scale(1.1);
+    background-color: #ac80af;
+    }
+    </style>
+
+    
+
+</head>
+<body>
+    <div id="popupMessage" class="popup">
+        <h2>Yes! I love you TOO! ❤️</h2>
+    </div>
+    
+
+<header>
+    <h1>My Heartfelt Proposal</h1>
+</header>
+
+<div class="message">
+    <p>From the moment we met, my world has been brighter with you in it. I cherish every laugh, every hug, and every moment we share together. Will you make me the happiest person in the world and be mine forever?</p>
+    <p><strong>Do You Love Me?</strong></p>
+</div>
+
+<button class="final-btn" onclick="alert('Yes! I love you so much! ❤️')">Yes! I love you!</button>
+
+<footer>    </footer>
+
+</body>
+</html>
